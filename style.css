@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin : 0 auto;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.container1 {
+    width: 80%;
+    margin : 0 auto;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.top {
+    background-image: url(buku.jpg);
+    background-position: center;
+    background-size: cover;
+    color :white;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 340px;
+}
+
+.top h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 6px black;
+    line-height: 30px;
+}
+
+.tombol a {
+    background-color: black;
+    padding: 30px 60px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.tombol {
+    margin-top: 80px;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-kanan {
+    float :right;
+}
+
+.nav-kanan a {
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 70px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+
+.nav-kanan a:hover:hover {
+    font-size: 25px;
+}
+
+.nav-kiri {
+    float: left;
+}
+
+.nav-kiri i {
+    font-size: 60px;
+    margin-left: 70px;
+    line-height: 70px;
+    color: white;
+}
+
+
+.nav-kiri i:hover {
+    font-size: 70px;
+}
+
+.tentang-saya {
+    text-align: center;
+}
+
+.gambar1 img {
+    border-radius: 50%;
+    height: 300px;
+    width: 200px;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 20px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.kritik {
+    text-align: center;
+}
+
+.form {
+    font-size: 15px;
+}
+
+.media-so {
+    text-align: center;
+}
+
+.simbol {
+    font-size: 150px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 150px;
+}
+
+.konten a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.konten a:hover {
+    font-size: 25px;
+    margin-left: -40px;
+}
+
+.konten {
+    width: 10%;
+    float: left;
+    margin-left: 180px;
+}
+
+.konten i {
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.konten p {
+    font-size: 10px;
+}
+
+.konten h3 {
+    margin-left: -40px;
+}
+
+.tombol2 {
+    font-size: 30px;
+    border-radius: 20px;
+    color: blue;
+
+}
+
+/*penanda*/
+
+@media(max-width:1000px) {
+    .container {
+        width: 80%;
+        margin : 0 auto;
+        padding-left : 15px;
+        padding-right : 15px;
+    }
+    
+    .container1 {
+        width: 80%;
+        margin : 0 auto;
+        padding-left : 15px;
+        padding-right : 15px;
+    }
+    
+    .top {
+        background-image: url(buku.jpg);
+        background-position: center;
+        background-size: cover;
+        color :white;
+        text-align: center;
+        padding-top: 300px;
+        padding-bottom: 340px;
+    }
+    
+    .top h1 {
+        font-size: 30px;
+        text-shadow: 2px 2px 6px black;
+        line-height: 30px;
+    }
+    
+    .tombol a {
+        background-color: black;
+        padding: 30px 60px;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    
+    .tombol {
+        margin-top: 80px;
+    }
+    
+    nav {
+        background-color: black;
+        height: 80px;
+        position: sticky;
+        top: 0;
+    }
+    
+    .nav-kanan {
+        float :right;
+    }
+    
+    .nav-kanan a {
+        color : white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+        line-height: 70px;
+        font-size: 8px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+    
+    }
+    
+    .nav-kanan a:hover:hover {
+        font-size: 10px;
+    }
+    
+    .nav-kiri {
+        float: left;
+    }
+
+    
+    .tentang-saya {
+        text-align: center;
+    }
+    
+    .gambar1 img {
+        border-radius: 50%;
+        height: 300px;
+        width: 200px;
+    }
+    
+    .text p {
+        text-align: justify;
+        font-size: 20px ;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    
+    .kritik {
+        text-align: center;
+    }
+    
+    .form {
+        font-size: 15px;
+    }
+    
+    .media-so {
+        text-align: center;
+    }
+    
+    .simbol {
+        font-size: 150px;
+    }
+    
+    
+    
+    
+    footer {
+        background-color: black;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 150px;
+        text-align: center;
+    }
+    
+    .konten a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .konten a:hover {
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    
+    .konten {
+        width: 20px;
+        float: left;
+        margin-left: 180px;
+    }
+    
+    .konten img {
+        height: 30px;
+        width: 30px;
+        padding-left: -5px;
+    }
+    
+    .konten p {
+        font-size: 10px;
+    }
+    
+    .konten h3 {
+        margin-left: -40px;
+        font-size: 15px;
+    }
+
+    #area {
+        width: 100px;
+        height: 20;
+    }
+
+    .tombol2 {
+        font-size: 15px;
+        border-radius: 20px;
+        color: black;
+    }
+
+    .sosmed {
+        height: 60px;
+        width: 190px;
+    }
+}
+
